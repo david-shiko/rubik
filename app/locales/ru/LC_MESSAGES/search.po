@@ -1,0 +1,179 @@
+# 1) Reason for the rule:
+# Russian is a language with complex rules for expressing quantity.
+# It uses a different form for quantities ending with 1, 2-4, and all others.
+# Properly reflecting this in software translations contributes to the overall quality of localization and user experience.
+#
+# 2) Workflow and specification:
+# The "Plural-Forms" attribute provides gettext with the rules for pluralization in Russian.
+# It helps gettext select the correct translation depending on the numerical context.
+# The "nplurals" parameter indicates that Russian uses 3 forms to express different quantities.
+# The "plural" attribute provides the logic to choose between these forms.
+#
+# 3) Implementation:
+# The logic "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)" can be read as follows:
+# If the last digit of `n` is 1 and `n` does not end with 11, use the first form.
+# If the last digit of `n` is 2, 3, or 4 (but `n` does not end with 12, 13, or 14), use the second form.
+# In all other cases, use the third form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+msgid "I_WANNA_CHAT"
+msgstr "Хочу общаться"
+
+msgid "I_WANNA_DATE"
+msgstr "Хочу знакомиться"
+
+msgid "I_WANNA_CHAT_AND_DATE"
+msgstr "Общаться и знакомиться"
+
+msgid "MALE"
+msgstr "Парень"
+
+msgid "FEMALE"
+msgstr "девушка"
+
+msgid "AGE_SPECIFIED"
+msgstr "Возраст указан"
+
+msgid "ANY_AGE"
+msgstr "Любой возраст"
+
+msgid "ANY_GENDER"
+msgstr "Любой пол"
+
+msgid "CITY_SPECIFIED"
+msgstr "Город указан"
+
+msgid "COUNTRY_SPECIFIED"
+msgstr "Страна указана"
+
+msgid "ERROR_FILTERS"
+msgstr "Не удалось применить фильтр. Фильтры применены не будут."
+
+msgid "HERE_MATCH"
+msgstr ""
+"Вам подходит:\n"
+"Процент общих интересов: {SHARED_INTERESTS_PERCENTAGE}%\n"
+"Общих интересов: {SHARED_INTERESTS_COUNT}"
+
+msgid "INCORRECT_SHOW_MORE_OPTION"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"{SHOW_MORE}\" или \"{FINISH}\""
+
+msgid "INCORRECT_SHOW_OPTION"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"{SHOW_ALL}\" или \"{SHOW_NEW}\""
+
+msgid "INCORRECT_TARGET_AGE"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите число в формате xx, диапазон в формате xx - xx или \"{ANY_AGE}\""
+
+msgid "INCORRECT_TARGET_GENDER"
+msgstr "{MISUNDERSTAND} Напишите \"{MALE}\", \"{FEMALE}\" или \"{ANY_GENDER}\""
+
+msgid "INCORRECT_TARGET_GOAL"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"{I_WANNA_CHAT}\", \"{I_WANNA_DATE}\" или \"{I_WANNA_CHAT_AND_DATE}\""
+
+msgid "IT_WANNA_CHAT"
+msgstr "хочет общаться"
+
+msgid "IT_WANNA_CHAT_AND_DATE"
+msgstr "Хочет общаться и знакомиться"
+
+msgid "IT_WANNA_DATE"
+msgstr "хочет знакомиться"
+
+msgid "NEW_FILTERS_SUGGESTIONS"
+msgstr ""
+"Предложения по добавлению новых фильтров пишите пожалуйста ему {ADMIN}"
+
+msgid "NO_COVOTES"
+msgstr ""
+"Вы оценили слишком мало постов, поэтому у вас нет ни одного совпадения по общим интересам.\n"
+"Как оценить большн постов, 3 опции:\n"
+"1. Используйте команду \"{GET_PUBLIC_POST_CMD}\" что-бы оценить больше новых постов в этом чате."
+"2. Используйте команду \"{GLOBAL_SCENARIO_CMD}\" что-бы оценить дефолтные посты в этом чате."
+"3. Оцените больше постов на нашем канале: {POSTS_CHANNEL_LINK}"
+
+
+msgid "NO_MATCHES_WITH_FILTERS"
+msgstr "К сожалению, мы никого не смогли найти по заданным фильтрам. Завершаю поиск."
+
+msgid "NO_MORE_MATCHES"
+msgstr ""
+"Отличная работа, вы посмотрели все совпадения!\n"
+"Завершаю диалог."
+
+msgid "NO_VOTES"
+msgstr ""
+"Вы не оценили ни 1 пост, поэтому мы не можем подобрать вам никого по общим интересам.\n"
+"Как оценить большн постов, 3 опции:\n"
+"Используйте команду \"{GET_PUBLIC_POST_CMD}\" что-бы оценить больше новых постов в этом чате."
+"Используйте команду \"{GLOBAL_SCENARIO_CMD}\" что-бы оценить дефолтные посты в этом чате."
+"Оцените больше постов на нашем канале: {POSTS_CHANNEL_LINK}"
+
+msgid "FOUND_MATCHES_COUNT"
+msgstr "Найдено {FOUND_MATCHES_COUNT} совпадений!"
+
+msgid "PHOTO_SPECIFIED"
+msgstr "С фотографией"
+
+msgid "SEARCH_STEP_0"
+msgstr ""
+"Привет! Я бот по имени Ruby.\n"
+"Я помогу найти тебе пару для знакомства или общения."
+
+msgid "SEARCH_STEP_1"
+msgstr "Вы хотите общаться или знакомиться?"
+
+msgid "SEARCH_STEP_2"
+msgstr "Выберите желаемый пол партнера."
+
+msgid "SEARCH_STEP_3"
+msgstr ""
+"Выберите желаемый возраст партнера.\n"
+"Вы можете выбрать диапазон указав 2 числа через дефис, например 24 - 38."
+
+msgid "SHARED_DISLIKES_PERCENTAGE"
+msgstr "Процент общих дизлайков"
+
+msgid "SHARED_LIKES_PERCENTAGE"
+msgstr "Процент общих лайков"
+
+msgid "SHARED_UNMARKED_POSTS_PERCENTAGE"
+msgstr "Процент общих неотмеченных постов"
+
+msgid "SHOW_ALL"
+msgstr "показывать всех"
+
+msgid "SHOW_MORE"
+msgstr "показать еще"
+
+msgid "SHOW_NEW"
+msgstr "показывать новых"
+
+msgid "TOTAL_DISLIKES_SET"
+msgstr "Общих дизлайков поставлено"
+
+msgid "TOTAL_LIKES_SET"
+msgstr "Общих лайков поставлено"
+
+msgid "TOTAL_UNMARKED_POSTS"
+msgstr "Общих неотмеченных постов"

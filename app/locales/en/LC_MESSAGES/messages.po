@@ -1,0 +1,307 @@
+# Long comments for line: "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+# 1) Reason for the rule:
+# English, like many other languages, has a grammatical system for expressing quantity.
+# Singular and plural are grammatical numbers that potentially impact all parts of speech.
+# It is essential to correctly translate these nuances to maintain the naturalness of the language in software.
+#
+# 2) Workflow and specification:
+# We use the "Plural-Forms" attribute to provide gettext with the rules for pluralization in English.
+# This attribute helps gettext understand how to select the correct translation depending on the numerical context.
+# The "nplurals" parameter is used to specify the total number of grammatical numbers in the language, which is 2 for English.
+# The "plural" condition provides the logic to select between these forms based on the given quantity.
+#
+# 3) Implementation:
+# The condition "n != 1" in the "plural" attribute means if the quantity `n` is not equal to 1, use the plural form.
+# When `n` equals 1, it means we are dealing with a singular entity, so we use the singular form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "ABOUT"
+msgstr "About"
+
+msgid "ACCEPT"
+msgstr "Accept"
+
+msgid "AGE"
+msgstr "Age"
+
+msgid "ALAS_USER_NOT_FOUND"
+msgstr "Unfortunately, user not found."
+
+msgid "ALLOW"
+msgstr "Allow"
+
+msgid "ASK_POST_ID"
+msgstr "Please tell me post id."
+
+msgid "BACK"
+msgstr "Back"
+
+msgid "CANCEL"
+msgstr "Cancel"
+
+msgid "CANCELED"
+msgstr "Canceled."
+
+msgid "COMMON_ERROR_EXPLANATION"
+msgstr ""
+"Unknown error.\n"
+"Try again later.\n"
+"I am already working on it."
+
+msgid "COMPLETE"
+msgstr "complete"
+
+msgid "COMPLETED"
+msgstr "Completed."
+
+msgid "CONTINUE"
+msgstr "Continue"
+
+msgid "DECLINE"
+msgstr "Decline"
+
+msgid "DISALLOW"
+msgstr "Disallow"
+
+msgid "EASTER_EGG_KEYBOARD"
+msgstr ""
+"Secret: in Telegram you cannot edit a keyboard, so I will send a new message "
+"and delete it immediately."
+
+msgid "ENTER_THE_NUMBER"
+msgstr "Enter a number. For example: \"25\""
+
+msgid "ERROR_LOCATION_SERVICE"
+msgstr ""
+"Oops, location service is temporarily unavailable. Please enter your "
+"location manually or press \"{SKIP_KEYWORD}\"."
+
+msgid "ERROR_VOTE"
+msgstr "I cannot leave a rating."
+
+msgid "FAQ"
+msgstr ""
+"What does the bot do?\n"
+"- The bot will find friends or a partner for you, and perhaps or not, love is a complex thing, it's worth a try anyway.\n"
+"How will it do this?\n"
+"- The bot will analyze your likes, thereby understanding your inner world.\n"
+"Presumably, two people with a common inner world form love, but this is not exact.\n"
+"\n"
+"How to use the bot?\n"
+"- The bot's operation consists of two spaces:\n"
+"1. Personal space will show how many common interests you have with a specific person.\n"
+"(This could be a friend, girlfriend, or family member).\n"
+"2. Public space will show people with the most common interests for you.\n"
+"(You can apply filters by gender, age, dating goal, etc.)\n"
+"\n"
+"I want to try personal space, how do I do this? - Command: \"{{PERSONAL_SCENARIO_CMD}}\".\n"
+"- 3 steps:\n"
+"1. Rate personal posts (give likes or dislikes).\n"
+"2. Indicate the person with whom you want to know the amount of common interests.\n"
+"3. Done! The bot will conduct an analysis and tell the % of common interests and other interesting figures.\n"
+"\n"
+"I want to try public space, how do I do this? - Command: \"{{GLOBAL_SCENARIO_CMD}}\".\n"
+"- 3 steps:\n"
+"1. Rate personal posts (give likes or dislikes).\n"
+"2. Start a search for common interests and find out.\n"
+"3. Done! - The bot will show people with the most common interests for you,\n"
+"and also apply the filters you set to them.\n"
+"\n"
+"What is the result of the bot's work?\n"
+"- The bot will show how many common interests you have with other users or a user.\n"
+"Based on this, you can make acquaintances.\n"
+"\n"
+"What do common interests give me?\n"
+"- Common interests are designed to help you make acquaintances with people,\n"
+"who are interesting to you and to whom you are interesting.\n"
+"This is a new filter that exists little elsewhere.\n"
+"\n"
+"Why like posts?\n"
+"- For the bot to be able to find you acquaintances based on interests - it needs to know your interests.\n"
+"Liking posts - is a way to tell the bot what you like.\n"
+"\n"
+"What does registration give me?\n"
+"- Registration allows other people to find you when they do a search.\n"
+"When you use the \"{{SEARCH_CMD}}\" command - you are looking for people who are already registered.\n"
+"For your profile to appear in the search results of other people - you need to register.\n"
+"\n"
+"{{BOT_NAME}}. Version 0.96.\n"
+"Author - {MAIN_ADMIN_NAME}."
+
+msgid "FORWARD"
+msgstr "Go Ahead"
+
+msgid "FOR_READY"
+msgstr "To continue, type \"{READY}\"."
+
+msgid "FROM"
+msgstr "out of"
+
+msgid "GENDER"
+msgstr "Gender"
+
+msgid "GLOBAL_SCENARIO"
+msgstr ""
+"Rate posts from collections.\n"
+"(In each collection maximum {{MAX_POSTS_COUNT}} posts).\n"
+"You can also rate posts in our posts channel: {{POSTS_CHANNEL_LINK}}."
+
+msgid "GO"
+msgstr "Let's go!"
+
+msgid "GOAL"
+msgstr "Goal"
+
+msgid "GOODBYE"
+msgstr "Goodbye!"
+
+msgid "HELP"
+msgstr "Help"
+
+msgid "HERE_STATISTICS_WITH"
+msgstr "Here is your statistics with user"
+
+msgid "INCORRECT_CONTINUE"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{CONTINUE}\" or \"{CANCEL}\"."
+
+msgid "INCORRECT_FINISH"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{READY}\" to move to the next step"
+
+msgid "INCORRECT_SEND"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{SEND}\" or \"{CANCEL}\""
+
+msgid "INCORRECT_USER"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Send their contact or enter their user id.\n"
+"(Search by name (@nickname) is not available yet)."
+
+msgid "I_AM_BOT"
+msgstr "I am a bot. I am here to liven up this place in alpha versions."
+
+msgid "LOCATION"
+msgstr "Location"
+
+msgid "POSSIBLE_LONG_SEARCH"
+msgstr "(search is not optimized yet, it may be slow)."
+
+msgid "MISUNDERSTAND"
+msgstr "I do not understand you."
+
+msgid "MORE_ACTIONS"
+msgstr "What else can be done?"
+
+msgid "NAME"
+msgstr "Name"
+
+msgid "NICKNAME_SEARCH_NOT_IMPLEMENTED"
+msgstr "(Search by name (@nickname) is not available yet)"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "PENDING"
+msgstr "Pending"
+
+msgid "PERSONAL_SCENARIO"
+msgstr ""
+"Step 1 of 2:\n"
+"Rate posts from collections.\n"
+"(In each collection maximum {{MAX_POSTS_COUNT}} posts).\n"
+"Skip - The search may not give results."
+
+msgid "POSSIBLE_INACTIVE_ACCOUNT"
+msgstr "Maybe his account was deleted or blocked."
+
+msgid "READY"
+msgstr "Ready"
+
+msgid "REG_REQUIRED"
+msgstr ""
+"Only registered users can use this command.\n"
+"\"{REG_CMD}\""
+
+msgid "REG_REQUIRED_FOR_VOTING"
+msgstr ""
+"Only registered users can vote on posts.\n"
+"{TMP_RESTRICTION}\n"
+"{{REG_CMD}}"
+
+msgid "SEND"
+msgstr "Send"
+
+msgid "SKIP"
+msgstr "Skip"
+
+msgid "START_SCENARIO"
+msgstr ""
+"What do you want?\n"
+"Learn common interests with a friend or partner -\n"
+"- command \"{PERSONAL_SCENARIO_CMD}\"\n"
+"Find people with common interests with me -\n"
+"- command \"{GLOBAL_SCENARIO_CMD}\""
+
+msgid "STATISTIC_HELLO"
+msgstr ""
+"Hello!\n"
+"With this command you can find out statistics with users who marked "
+"interests together with you.\n"
+"Send the contact of the user you want to get statistics for or enter their "
+"user id."
+
+msgid "TEXT_TOO_LONG"
+msgstr ""
+"Text is too long. Maximum characters allowed: {MAX_TEXT_LEN}\n"
+"Characters used: {USED_TEXT_LEN}"
+
+msgid "TMP_RESTRICTION"
+msgstr "(this is a temporary restriction, we will try to remove it soon)"
+
+msgid "UNCLICKABLE_BUTTON"
+msgstr "This button does nothing."
+
+msgid "UNKNOWN"
+msgstr "Unknown"
+
+msgid "UNSKIPPABLE_STEP"
+msgstr "This step cannot be skipped."
+
+msgid "USER_DECLINED_SHARE_PROPOSAL"
+msgstr "Unfortunately, user {DECLINER_TG_NAME} declined your proposal."
+
+msgid "USER_DECLINED_REQUEST_PROPOSAL"
+msgstr "Unfortunately, user {DECLINER_TG_NAME} declined your request."
+
+msgid "USER_GOT_SHARE_PROPOSAL"
+msgstr "User {USER_ID} received your invitation."
+# msgstr "User {USER_TG_NAME} (id {USER_ID}) got your invitation."
+
+msgid "USER_GOT_REQUEST_PROPOSAL"
+msgstr "User {USER_ID} got your request."
+# msgstr "User {USER_TG_NAME} (id {USER_ID}) got your request."
+
+msgid "WAIT"
+msgstr "Wait"
+
+msgid "INTERNAL_ERROR"
+msgstr "Internal error. We apologize."
+

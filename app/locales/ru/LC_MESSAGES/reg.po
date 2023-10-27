@@ -1,0 +1,169 @@
+# 1) Reason for the rule:
+# Russian is a language with complex rules for expressing quantity.
+# It uses a different form for quantities ending with 1, 2-4, and all others.
+# Properly reflecting this in software translations contributes to the overall quality of localization and user experience.
+#
+# 2) Workflow and specification:
+# The "Plural-Forms" attribute provides gettext with the rules for pluralization in Russian.
+# It helps gettext select the correct translation depending on the numerical context.
+# The "nplurals" parameter indicates that Russian uses 3 forms to express different quantities.
+# The "plural" attribute provides the logic to choose between these forms.
+#
+# 3) Implementation:
+# The logic "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)" can be read as follows:
+# If the last digit of `n` is 1 and `n` does not end with 11, use the first form.
+# If the last digit of `n` is 2, 3, or 4 (but `n` does not end with 12, 13, or 14), use the second form.
+# In all other cases, use the third form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+msgid "COMMAND_FOR_REG"
+msgstr "Команда для регистрации: \"{REG_CMD}\"."
+
+msgid "END_REG_HELP"
+msgstr ""
+"Напишите \"{FINISH}\" для завершения регистрации, "
+"\"{BACK}\" - если хотите внести изменения и "
+"\"{CANCEL}\" для отмены регистрации."
+
+msgid "ERROR_SAVING_PHOTOS"
+msgstr "Не могу сохранить фотографии."
+
+msgid "ERROR_SAVING_PROFILE"
+msgstr "Не могу сохранить ваш профиль. Отменяю регистрацию."
+
+msgid "HERE_PROFILE_PREVIEW"
+msgstr "Так будет выглядеть ваш профиль:"
+
+msgid "SEND_LOCATION"
+msgstr "Отправить местоположение"
+
+msgid "INCORRECT_AGE"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите свой возраст. Например: \"25 лет.\""
+
+msgid "INCORRECT_GENDER"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"{I_MALE}\" или \"{I_FEMALE}\""
+
+msgid "INCORRECT_GOAL"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"{I_WANNA_CHAT}\", \"{I_WANNA_DATE}\" или \"{I_WANNA_CHAT_AND_DATE}\""
+
+msgid "INCORRECT_LOCATION"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите страну и город через запятую, например: \"Россия, Москва\"."
+
+msgid "I_FEMALE"
+msgstr "я девушка"
+
+msgid "I_MALE"
+msgstr "я парень"
+
+msgid "I_WANNA_CHAT"
+msgstr "хочу общаться"
+
+msgid "I_WANNA_CHAT_AND_DATE"
+msgstr "общаться и знакомиться"
+
+msgid "I_WANNA_DATE"
+msgstr "хочу знакомиться"
+
+msgid "NO_PHOTOS_TO_REMOVE"
+msgstr "У вас нет добавленных фотографий."
+
+msgid "NO_PROFILE_PHOTOS"
+msgstr "У вашего профиля нет фотографий."
+
+msgid "PHOTOS_ADDED_SUCCESS"
+msgstr "Добавил. Вы можете добавить еще фотографии."
+
+msgid "PHOTOS_REMOVED_SUCCESS"
+msgstr "Удалено. Вы можете добавить еще фотографии."
+
+msgid "PHOTO_ADDED_SUCCESS"
+msgstr "Добавил. Вы можете добавить еще фотографии."
+
+msgid "REG_STEP_0"
+msgstr ""
+"Отличное решение!\n"
+"После регистрации вы сможете не только смотреть анкеты, но и сами станете "
+"доступны для поиска.\n"
+"Во время регистрации я у вас спрошу имя, цель, пол, возраст, фото и "
+"комментарий."
+
+msgid "REG_STEP_1"
+msgstr ""
+"Шаг 1 из 7.\n"
+"Как вас зовут?"
+
+msgid "REG_STEP_2"
+msgstr ""
+"Шаг 2 из 7.\n"
+"Вы хотите общаться или знакомиться?"
+
+msgid "REG_STEP_3"
+msgstr ""
+"Шаг 3 из 7.\n"
+"Укажите ваш пол."
+
+msgid "REG_STEP_4"
+msgstr ""
+"Шаг 4 из 7.\n"
+"Укажите ваш возраст."
+
+msgid "REG_STEP_5"
+msgstr ""
+"Шаг 5 из 7.\n"
+"Напишите страну и город через запятую."
+
+msgid "REG_STEP_6"
+msgstr ""
+"Шаг 6 из 7.\n"
+"Прикрепите одну или несколько фотографий во вложении, которые будут "
+"отображаться вместе с вашей анкетой.\n"
+"Первая добавленная фотография станет вашим аватаром.\n"
+"Когда закончите напишите \"готово\"."
+
+msgid "REG_STEP_7"
+msgstr ""
+"Шаг 7 из 7.\n"
+"Расскажите о себе.\n"
+"Максимальное количество символов - 500."
+
+msgid "REMOVE_PHOTOS"
+msgstr "Удалить выбранные фотографии"
+
+msgid "SUCCESS_REG"
+msgstr "Поздравляю, вы успешно зарегистрированы!"
+
+msgid "TOO_MANY_PHOTOS"
+msgstr ""
+"Слишком много фотографий.\n"
+"Использовано фотографий: {{USED_PHOTOS}}.\n"
+"Максимальное количество фотографий: {MAX_PHOTOS}."
+
+msgid "USE_ACCOUNT_NAME"
+msgstr "Использовать имя аккаунта"
+
+msgid "USE_ACCOUNT_PHOTOS"
+msgstr "Использовать фотографии профиля"
+
+msgid "_YOU_CAN_ADD_MORE_PHOTOS"
+msgstr "Вы можете добавить еще фотографии."

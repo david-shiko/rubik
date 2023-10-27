@@ -1,0 +1,83 @@
+# Long comments for line: "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+# 1) Reason for the rule:
+# English, like many other languages, has a grammatical system for expressing quantity.
+# Singular and plural are grammatical numbers that potentially impact all parts of speech.
+# It is essential to correctly translate these nuances to maintain the naturalness of the language in software.
+#
+# 2) Workflow and specification:
+# We use the "Plural-Forms" attribute to provide gettext with the rules for pluralization in English.
+# This attribute helps gettext understand how to select the correct translation depending on the numerical context.
+# The "nplurals" parameter is used to specify the total number of grammatical numbers in the language, which is 2 for English.
+# The "plural" condition provides the logic to select between these forms based on the given quantity.
+#
+# 3) Implementation:
+# The condition "n != 1" in the "plural" attribute means if the quantity `n` is not equal to 1, use the plural form.
+# When `n` equals 1, it means we are dealing with a singular entity, so we use the singular form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "BOT_USER_COMMANDS"
+msgstr "All bot user commands."
+
+msgid "FAQ"
+msgstr "frequently asked questions."
+
+msgid "GET_COLLECTIONS"
+msgstr "Get my collections."
+
+msgid "GET_NEW_PUBLIC_POST"
+msgstr "Get a new public post."
+
+msgid "GET_PERSONAL_POSTS"
+msgstr "Get my personal posts."
+
+msgid "GET_STAT"
+msgstr "Get statistics with the user."
+
+msgid "GLOBAL_SCENARIO"
+msgstr "Find people with common interests."
+
+msgid "GLOBAL_SEARCH"
+msgstr "Global search for communication or meeting."
+
+msgid "HERE_COMMANDS"
+msgstr "Here is a list of commands that I understand:"
+
+msgid "PERSONAL_POST"
+msgstr "Create a personal post."
+
+msgid "PERSONAL_SCENARIO"
+msgstr "Find common interests with another person."
+
+msgid "PUBLIC_POST"
+msgstr "Create a public post."
+
+msgid "REG"
+msgstr "Register (so you can be found in the global search)."
+
+msgid "REQUEST_PERSONAL_POSTS"
+msgstr "Ask to share personal posts."
+
+msgid "SEARCH"
+msgstr "Global search for communication or meeting."
+
+msgid "SHARE_PERSONAL_POSTS"
+msgstr "Share personal posts."
+
+msgid "START"
+msgstr "Press here if you're here for the first time."
+
+msgid "SHOW_SAMPLE"
+msgstr "Show sample of personal scenario results."

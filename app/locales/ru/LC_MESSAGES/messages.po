@@ -1,0 +1,302 @@
+# 1) Reason for the rule:
+# Russian is a language with complex rules for expressing quantity.
+# It uses a different form for quantities ending with 1, 2-4, and all others.
+# Properly reflecting this in software translations contributes to the overall quality of localization and user experience.
+#
+# 2) Workflow and specification:
+# The "Plural-Forms" attribute provides gettext with the rules for pluralization in Russian.
+# It helps gettext select the correct translation depending on the numerical context.
+# The "nplurals" parameter indicates that Russian uses 3 forms to express different quantities.
+# The "plural" attribute provides the logic to choose between these forms.
+#
+# 3) Implementation:
+# The logic "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)" can be read as follows:
+# If the last digit of `n` is 1 and `n` does not end with 11, use the first form.
+# If the last digit of `n` is 2, 3, or 4 (but `n` does not end with 12, 13, or 14), use the second form.
+# In all other cases, use the third form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+msgid "ABOUT"
+msgstr "О себе"
+
+msgid "ACCEPT"
+msgstr "принять"
+
+msgid "AGE"
+msgstr "Возраст"
+
+msgid "ALAS_USER_NOT_FOUND"
+msgstr "Увы, пользователь не найден."
+
+msgid "ALLOW"
+msgstr "Разрешить"
+
+msgid "ASK_POST_ID"
+msgstr "Сообщите мне пожалуйста id поста."
+
+msgid "BACK"
+msgstr "Назад"
+
+msgid "CANCEL"
+msgstr "Отмена"
+
+msgid "CANCELED"
+msgstr "Отменено."
+
+msgid "COMMON_ERROR_EXPLANATION"
+msgstr ""
+"Неизвестная ошибка.\n"
+"Попробуйте повторить попытку позднее.\n"
+"Я уже работаю над этим."
+
+msgid "COMPLETE"
+msgstr "завершить"
+
+msgid "COMPLETED"
+msgstr "Завершено."
+
+msgid "CONTINUE"
+msgstr "Продолжить"
+
+msgid "DECLINE"
+msgstr "отклонить"
+
+msgid "DISALLOW"
+msgstr "Отказать"
+
+msgid "EASTER_EGG_KEYBOARD"
+msgstr ""
+"Секрет: в телеграмме нельзя редактировать клавиатуру, у которой есть кнопки, "
+"поэтому я отправлю новое сообщение с клавиатурой и тут же его удалю. "
+"Сообщение будет удалено, а клавиатура останется."
+
+msgid "ENTER_THE_NUMBER"
+msgstr "Введите число. Например: \"25\""
+
+msgid "ERROR_LOCATION_SERVICE"
+msgstr ""
+"Упс, сервис геолокации временно недоступен.\n"
+"Пожалуйста, введи местоположение вручную или нажмите \"{SKIP_KEYWORD}\"."
+
+msgid "ERROR_VOTE"
+msgstr "Не могу оставить оценку."
+
+msgid "FAQ"
+msgstr ""
+"Что делает бот?\n"
+"- Бот найдет вам друзей ил пару, а возможно и нет, любовь штука мудреная, во всяком случае, стоит попробовать.\n"
+"Как он это сделает?\n"
+"- Бот будет анализировать ваши лайки, тем самым узнавая ваш внутренний мир.\n"
+"Предположительно, 2 человека с общим внутренним миром образуют любовь, но это не точно.\n"
+"\n"
+"Как пользоваться ботом?\n"
+"- Работа бота состоит из 2-х пространств:\n"
+"1. Персональное пространство покажет сколько у вас общих интересов с конкретным человеком.\n"
+"(Это может быть друг, девушка или член семьи).\n"
+"2. Публичное пространство покажет людей с наибольшим количеством общих для вас интересов.\n"
+"(Вы можете применить фильтры по полу, возрасту, цели знакомства и т.д.)\n"
+"\n"
+"Хочу попробовать персональное пространство, как мне это сделать? - Команда: \"{{PERSONAL_SCENARIO_CMD}}\".\n"
+"- 3 шага:\n"
+"1. Оцените персональные посты (поставьте лайки или дизлайки).\n"
+"2. Укажите человека, с которым хотите узнать количество общих интересов.\n"
+"3. Готово! Бот проведет анализ и скажет % общих интересов и другие интересные цифры.\n"
+"\n"
+"Хочу попробовать публичное пространство, как мне это сделать? - Команда: \"{{GLOBAL_SCENARIO_CMD}}\".\n"
+"- 3 шага:\n"
+"1. Оцените персональные посты (поставьте лайки или дизлайки).\n"
+"2. Начните поиск по общим интересам и узнайте.\n"
+"3. Готово! - Бот покажет людей с наибольшим количеством общих для вас интересов,\n"
+"а так-же применит к ним заданные вами фильтры.\n"
+"\n"
+"Каков результат работы бота?\n"
+"- Бот покажет сколько у вас общих интересов с другими пользователями или пользователем.\n"
+"На основе этого можно заводить знакомства.\n"
+"\n"
+"Что мне дают общие интересы?\n"
+"- Общие интересы призваны помочь заводить знакомства с людьми,\n"
+"которые вам интересны и которым вы интересны.\n"
+"Это новый фильтр, который мало где еще существует.\n"
+"\n"
+"Зачем лайкать посты?\n"
+"- Что бы бот смог найти вам знакомства по интересам - он должен узнать ваши интересы.\n"
+"Лайки постам - это способ рассказать боту что вам нравится.\n"
+"\n"
+"Что дает мне регистрация?\n"
+"- Регистрация позволяет другим людям найти вас когда они сделают поиск.\n"
+"Когда вы используете команду \"{{SEARCH_CMD}}\" - вы ищете людей, которые уже зарегистрированы.\n"
+"Что бы ваш профиль появлялся в результатах поиска у других людей - вам необходимо зарегистрироваться.\n"
+"\n"
+"{{BOT_NAME}}. Версия 0.96.\n"
+"Автор - {MAIN_ADMIN_NAME}."
+
+msgid "FORWARD"
+msgstr "Вперед"
+
+msgid "FOR_READY"
+msgstr "Для продолжения напишите \"{READY}\"."
+
+msgid "FROM"
+msgstr "из"
+
+msgid "GENDER"
+msgstr "Пол"
+
+msgid "GLOBAL_SCENARIO"
+msgstr ""
+"Оцените посты из коллекций. (В каждой коллекции максимум {{MAX_POSTS_COUNT}} постов).\n"
+"Так-же можно оценить посты на нашем канала с постами: {{POSTS_CHANNEL_LINK}}."
+
+msgid "GO"
+msgstr "Поехали!"
+
+msgid "GOAL"
+msgstr "Цель"
+
+msgid "GOODBYE"
+msgstr "До новых встреч!"
+
+msgid "HELP"
+msgstr "Помощь"
+
+msgid "HERE_STATISTICS_WITH"
+msgstr "Вот ваша статистика с пользователем"
+
+msgid "INCORRECT_CONTINUE"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"{CONTINUE}\" или \"{CANCEL}\"."
+
+msgid "INCORRECT_FINISH"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"Готово\" что-бы перейти к следующему шагу"
+
+msgid "INCORRECT_SEND"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Напишите \"Отправить\" или \"Отмена\""
+
+msgid "INCORRECT_USER"
+msgstr "Отправьте его контакт или введите его user id."
+
+msgid "I_AM_BOT"
+msgstr "Я бот. Я здесь что бы оживить это место в альфа-версиях."
+
+msgid "LOCATION"
+msgstr "Местоположение"
+
+msgid "POSSIBLE_LONG_SEARCH"
+msgstr "(поиск еще не оптимизирован, он может быть долгим)."
+
+msgid "MISUNDERSTAND"
+msgstr "Я вас не понимаю."
+
+msgid "MORE_ACTIONS"
+msgstr "Что еще можно сделать?"
+
+msgid "NAME"
+msgstr "Имя"
+
+msgid "NICKNAME_SEARCH_NOT_IMPLEMENTED"
+msgstr "(Поиск по имени (@nickname) пока не доступен)"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "PENDING"
+msgstr "В ожидании"
+
+msgid "PERSONAL_SCENARIO"
+msgstr ""
+"Шаг 1 из 2:\n"
+"Оцените посты из коллекций.\n"
+"(В каждой коллекции максимум 10 постов).\n"
+"Пропустить - Возможно поиск не даст результата."
+
+msgid "POSSIBLE_INACTIVE_ACCOUNT"
+msgstr "Возможно он его аккаунт был удален или заблокирован."
+
+msgid "READY"
+msgstr "Готово"
+
+msgid "REG_REQUIRED"
+msgstr ""
+"Только зарегистрированные пользователи могут использовать эту команду.\n"
+"Команда для регистрации: \"{REG_CMD}\"."
+
+msgid "REG_REQUIRED_FOR_VOTING"
+msgstr ""
+"Только зарегистрированные пользователи могут оценивать посты.\n"
+"{TMP_RESTRICTION}\n"
+"Команда для регистрации: \"{{REG_CMD}}\"."
+
+msgid "SEND"
+msgstr "Отправить"
+
+msgid "SKIP"
+msgstr "Пропустить"
+
+msgid "START_SCENARIO"
+msgstr ""
+"Что вы хотите?\n"
+"Узнать общие интересы с другом или партнером -\n"
+"- команда \"{PERSONAL_SCENARIO_CMD}\".\n"
+"Найти людей с общими со мной интересами -\n"
+"- команда \"{GLOBAL_SCENARIO_CMD}\"."
+
+msgid "STATISTIC_HELLO"
+msgstr ""
+"Привет!\n"
+"С помощью этой команды можно узнать статистику с пользователями которые "
+"отмечали вместе с вами персональные посты.\n"
+"Отправьте контакт пользователя с которым хотите получить статистик или "
+"введите его user id."
+
+msgid "TEXT_TOO_LONG"
+msgstr ""
+"Слишком длинный текст. Допустимое количество символов: {MAX_TEXT_LEN}\n"
+"Использовано символов: {USED_TEXT_LEN}"
+
+msgid "TMP_RESTRICTION"
+msgstr "Это временное ограничение, мы постараемся его скоро убрать."
+
+msgid "UNCLICKABLE_BUTTON"
+msgstr "Эта кнопка ничего не делает."
+
+msgid "UNKNOWN"
+msgstr "Неизвестно"
+
+msgid "UNSKIPPABLE_STEP"
+msgstr "Этот шаг нельзя пропустить."
+
+msgid "USER_DECLINED_SHARE_PROPOSAL"
+msgstr "Увы, пользователь {DECLINER_TG_NAME} отклонил ваше приглашение."
+
+msgid "USER_DECLINED_REQUEST_PROPOSAL"
+msgstr "Увы, пользователь {DECLINER_TG_NAME} отклонил ваш запрос."
+
+msgid "USER_GOT_SHARE_PROPOSAL"
+msgstr "Пользователь {USER_ID} получил ваше приглашение."
+
+msgid "USER_GOT_REQUEST_PROPOSAL"
+msgstr "Пользователь {USER_ID} получил ваш запрос."
+
+msgid "WAIT"
+msgstr "ждать"
+
+msgid "INTERNAL_ERROR"
+msgstr "Внутренняя ошибка. Приносим свои извинения."

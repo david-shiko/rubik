@@ -1,0 +1,84 @@
+# 1) Reason for the rule:
+# Russian is a language with complex rules for expressing quantity.
+# It uses a different form for quantities ending with 1, 2-4, and all others.
+# Properly reflecting this in software translations contributes to the overall quality of localization and user experience.
+#
+# 2) Workflow and specification:
+# The "Plural-Forms" attribute provides gettext with the rules for pluralization in Russian.
+# It helps gettext select the correct translation depending on the numerical context.
+# The "nplurals" parameter indicates that Russian uses 3 forms to express different quantities.
+# The "plural" attribute provides the logic to choose between these forms.
+#
+# 3) Implementation:
+# The logic "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)" can be read as follows:
+# If the last digit of `n` is 1 and `n` does not end with 11, use the first form.
+# If the last digit of `n` is 2, 3, or 4 (but `n` does not end with 12, 13, or 14), use the second form.
+# In all other cases, use the third form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+msgid "BOT_USER_COMMANDS"
+msgstr "Все команды бота."
+
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы."
+
+msgid "GET_COLLECTIONS"
+msgstr "Показать мои коллекции."
+
+msgid "GET_NEW_PUBLIC_POST"
+msgstr "Получить новый публичный пост."
+
+msgid "GET_PERSONAL_POSTS"
+msgstr "Показать мои персональные посты."
+
+msgid "GET_STAT"
+msgstr "Получить статистику с пользователем."
+
+msgid "GLOBAL_SCENARIO"
+msgstr "Найти людей с общими интересами."
+
+msgid "GLOBAL_SEARCH"
+msgstr "Глобальный поиск для общения или знакомства."
+
+msgid "HERE_COMMANDS"
+msgstr "Вот список команд, которые я понимаю:"
+
+msgid "PERSONAL_POST"
+msgstr "Создать персональный пост."
+
+msgid "PERSONAL_SCENARIO"
+msgstr "Узнать общие интересы с другим человеком."
+
+msgid "PUBLIC_POST"
+msgstr "Создать публичный пост."
+
+msgid "REG"
+msgstr "Зарегистрироваться (что бы вас могли найти)."
+
+msgid "REQUEST_PERSONAL_POSTS"
+msgstr "Попросить поделиться персональными постами."
+
+msgid "SEARCH"
+msgstr "Глобальный поиск для общения или знакомства."
+
+msgid "SHARE_PERSONAL_POSTS"
+msgstr "Поделиться персональными постами."
+
+msgid "START"
+msgstr "Нажми сюда если ты здесь первый раз."
+
+msgid "SHOW_SAMPLE"
+msgstr "Показать пример результата персонального сценария."

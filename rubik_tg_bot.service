@@ -1,0 +1,13 @@
+[Unit]
+Description=Rubik tg bot
+After=network.target multi-user.target default.target
+
+[Service]
+WorkingDirectory=/home/david/PycharmProjects/rubik_tg_bot
+ExecStart=/home/david/PycharmProjects/rubik_tg_bot/venv/bin/python -m app
+Type=idle
+Restart=on-failure
+
+
+[Install]
+WantedBy=default.target multi-user.target

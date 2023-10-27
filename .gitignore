@@ -1,0 +1,11 @@
+.git/
+.idea/
+.env
+.coverage
+*.mo
+venv/
+# Double asterisk ignoreing any folder, see https://stackoverflow.com/q/33434190/11277611
+**/__pycache__/* 
+logs/
+db_backups
+

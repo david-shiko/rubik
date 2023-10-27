@@ -1,0 +1,88 @@
+# 1) Reason for the rule:
+# Russian is a language with complex rules for expressing quantity.
+# It uses a different form for quantities ending with 1, 2-4, and all others.
+# Properly reflecting this in software translations contributes to the overall quality of localization and user experience.
+#
+# 2) Workflow and specification:
+# The "Plural-Forms" attribute provides gettext with the rules for pluralization in Russian.
+# It helps gettext select the correct translation depending on the numerical context.
+# The "nplurals" parameter indicates that Russian uses 3 forms to express different quantities.
+# The "plural" attribute provides the logic to choose between these forms.
+#
+# 3) Implementation:
+# The logic "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)" can be read as follows:
+# If the last digit of `n` is 1 and `n` does not end with 11, use the first form.
+# If the last digit of `n` is 2, 3, or 4 (but `n` does not end with 12, 13, or 14), use the second form.
+# In all other cases, use the third form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+msgid "ASK_FOR_NAMES"
+msgstr ""
+"Опционально:\n"
+"Вы можете выбрать коллекции в которые поместить пост.\n"
+"Введите названия коллекций через запятую (\",\"). \n"
+"Если коллекции не существует - она будет создана.\n"
+"Если коллекции не указаны - будет использована коллекции по умолчанию."
+
+msgid "ASK_TO_SHARE"
+msgstr "Выберите коллекции, которыми хотите поделиться."
+
+msgid "HERE_POSTS"
+msgstr "Вот посты из коллекции:"
+
+msgid "HERE_SHARED"
+msgstr ""
+"Вот коллекции, которыми с вами поделились:\n"
+"(Нажмите на коллекцию что-бы увидеть ее посты)."
+
+msgid "HERE_YOUR"
+msgstr "Вот ваши коллекции (скоро тут будут удобные кнопочки):"
+
+msgid "MAX_NAME_LEN"
+msgstr "Максимальное количество символов в названии коллекции: {MAX_NAME_LEN}."
+
+msgid "COLLECTIONS_TO_SHARE_NOT_CHOSE"
+msgstr ""
+"Вы не выбрали ни одной коллекции, которой хотите поделиться.\n"
+"Пожалуйста, выбери коллекции для отправки."
+
+msgid "NO_COLLECTIONS"
+msgstr ""
+"У вас нет коллекций.\n"
+"Коллекции можно создать во время создания персонального поста, команда \"{CREATE_PERSONAL_POST_CMD}\"."
+
+msgid "NO_POSTS"
+msgstr "Упс, в этой коллекции нет постов, извините."
+
+msgid "SAY_CHOSE_FOR_POST"
+msgstr "Пост будет помещен в следующе коллекции:"
+
+msgid "NOTIFY_SHARE_PROPOSAL"
+msgstr "Пользователь {USER_TG_NAME} хочет поделиться с вами своими коллекциями, принять?"
+
+msgid "WHO_TO_SHARE"
+msgstr ""
+"С каким пользователем вы бы хотели поделиться коллекциями?\n"
+"Отправьте его контакт или введите его user id.\n"
+"(Поиск по имени (@nickname) пока не доступен)."
+
+msgid "SHARED_COLLECTIONS_NOT_FOUND"
+msgstr "Коллекции, которыми с вами поделились не найдены, возможно отправитель их удалил."
+
+msgid "USER_ACCEPTED_SHARE_PROPOSAL"
+msgstr ""
+"Ура, пользователь {ACCEPTER_TG_NAME} принял ваше приглашение!\n"
+"Теперь нужно подождать когда он оценит эти коллекции."

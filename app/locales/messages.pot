@@ -1,0 +1,659 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: x.py:5
+msgid "ACCEPT"
+msgstr ""
+
+#: x.py:6
+msgid "AGE_SPECIFIED"
+msgstr ""
+
+#: x.py:7
+msgid "ALAS_USER_NOT_FOUND"
+msgstr ""
+
+#: x.py:8
+msgid "ALLOW"
+msgstr ""
+
+#: x.py:9
+msgid "ANY_AGE"
+msgstr ""
+
+#: x.py:10
+msgid "ANY_GENDER"
+msgstr ""
+
+#: x.py:12
+msgid "ASK_CONFIRM"
+msgstr ""
+
+#: x.py:13
+msgid "ASK_POST_ID"
+msgstr ""
+
+#: x.py:14
+msgid "ASK_POST_NEW_STATUS"
+msgstr ""
+
+#: x.py:16
+msgid "BACK"
+msgstr ""
+
+#: x.py:17
+msgid "CANCEL"
+msgstr ""
+
+#: x.py:18
+msgid "CANCELED"
+msgstr ""
+
+#: x.py:19
+msgid "CANT_SEND_TO_THIS_USER"
+msgstr ""
+
+#: x.py:20
+msgid "CANT_SEND_TO_THIS_USER"
+msgstr ""
+
+#: x.py:21
+msgid "CHAT_AND_DATE"
+msgstr ""
+
+#: x.py:24
+msgid "CITY_SPECIFIED"
+msgstr ""
+
+#: x.py:26
+msgid "COMMAND_FOR_REG"
+msgstr ""
+
+#: x.py:27
+msgid "COMMON_ERROR_EXPLANATION"
+msgstr ""
+
+#: x.py:28
+msgid "COMPLETE"
+msgstr ""
+
+#: x.py:29
+msgid "COMPLETED"
+msgstr ""
+
+#: x.py:30
+msgid "CONTINUE"
+msgstr ""
+
+#: x.py:31
+msgid "COUNTRY_SPECIFIED"
+msgstr ""
+
+#: x.py:32
+msgid "DECLINE"
+msgstr ""
+
+#: x.py:33
+msgid "DISALLOW"
+msgstr ""
+
+#: x.py:34
+msgid "EASTER_EGG_KEYBOARD"
+msgstr ""
+
+#: x.py:35
+msgid "END_REG_HELP"
+msgstr ""
+
+#: x.py:36
+msgid "ERROR_FILTERS"
+msgstr ""
+
+#: x.py:37
+msgid "ERROR_CREATE"
+msgstr ""
+
+#: x.py:38
+msgid "ERROR_SAVING_PROFILE"
+msgstr ""
+
+#: x.py:39
+msgid "ERROR_VOTE"
+msgstr ""
+
+#: x.py:40
+msgid "FAQ"
+msgstr ""
+
+#: x.py:42
+msgid "FINISH"
+msgstr ""
+
+#: x.py:43
+msgid "FOR_READY"
+msgstr ""
+
+#: x.py:44
+msgid "GLOBAL_SCENARIO"
+msgstr ""
+
+#: x.py:45
+msgid "GO"
+msgstr ""
+
+#: x.py:46
+msgid "GOODBYE"
+msgstr ""
+
+#: x.py:47
+msgid "FORWARD"
+msgstr ""
+
+#: x.py:48
+msgid "HERE_COLLECTION_POSTS"
+msgstr ""
+
+#: x.py:49
+msgid "HERE_COMMANDS"
+msgstr ""
+
+#: x.py:50
+msgid "HERE_MATCH"
+msgstr ""
+
+#: x.py:51
+msgid "HERE_POST"
+msgstr ""
+
+#: x.py:52
+msgid "HERE_PROFILE_PREVIEW"
+msgstr ""
+
+#: x.py:54
+msgid "HERE_STATISTICS_WITH"
+msgstr ""
+
+#: x.py:56
+msgid "HERE_YOUR_PERSONAL_POSTS"
+msgstr ""
+
+#: x.py:57
+msgid "INCORRECT_AGE"
+msgstr ""
+
+#: x.py:58
+msgid "INCORRECT_CONTINUE"
+msgstr ""
+
+#: x.py:59
+msgid "INCORRECT_FINISH"
+msgstr ""
+
+#: x.py:60
+msgid "INCORRECT_GENDER"
+msgstr ""
+
+#: x.py:61
+msgid "INCORRECT_GOAL"
+msgstr ""
+
+#: x.py:62
+msgid "INCORRECT_LOCATION"
+msgstr ""
+
+#: x.py:63
+msgid "INCORRECT_NAME"
+msgstr ""
+
+#: x.py:64
+msgid "INCORRECT_SEND"
+msgstr ""
+
+#: x.py:65
+msgid "INCORRECT_SHOW_MORE_OPTION"
+msgstr ""
+
+#: x.py:66
+msgid "INCORRECT_SHOW_OPTION"
+msgstr ""
+
+#: x.py:67
+msgid "INCORRECT_TARGET_AGE"
+msgstr ""
+
+#: x.py:68
+msgid "INCORRECT_TARGET_GENDER"
+msgstr ""
+
+#: x.py:69
+msgid "INCORRECT_TARGET_GOAL"
+msgstr ""
+
+#: x.py:70
+msgid "INCORRECT_USER"
+msgstr ""
+
+#: x.py:80
+msgid "IT_WANNA_CHAT"
+msgstr ""
+
+#: x.py:81
+msgid "IT_WANNA_DATE"
+msgstr ""
+
+#: x.py:82
+msgid "I_AM_BOT"
+msgstr ""
+
+#: x.py:83
+msgid "I_FEMALE"
+msgstr ""
+
+#: x.py:84
+msgid "I_MALE"
+msgstr ""
+
+#: x.py:85
+msgid "TMP_RESTRICTION"
+msgstr ""
+
+#: x.py:87
+msgid "ERROR_LOCATION_SERVICE"
+msgstr ""
+
+#: x.py:88
+msgid "POSSIBLE_LONG_SEARCH"
+msgstr ""
+
+#: x.py:90
+msgid "MISUNDERSTAND"
+msgstr ""
+
+#: x.py:91
+msgid "MORE_ACTIONS"
+msgstr ""
+
+#: x.py:92
+msgid "NAN_HELP_TEXT"
+msgstr ""
+
+#: x.py:93
+msgid "NEW_FILTERS_SUGGESTIONS"
+msgstr ""
+
+#: x.py:94
+msgid "NICKNAME_SEARCH_NOT_IMPLEMENTED"
+msgstr ""
+
+#: x.py:95
+msgid "NO_COVOTES"
+msgstr ""
+
+#: x.py:96
+msgid "NO_MASS_POSTS"
+msgstr ""
+
+#: x.py:97
+msgid "NO_MATCHES_WITH_FILTERS"
+msgstr ""
+
+#: x.py:98
+msgid "NO_MORE_MATCHES"
+msgstr ""
+
+#: x.py:99
+msgid "NO_MORE_POSTS"
+msgstr ""
+
+#: x.py:100
+msgid "NO_NEW_POSTS"
+msgstr ""
+
+#: x.py:101
+msgid "NO_PENDING"
+msgstr ""
+
+#: x.py:103
+msgid "NO_PERSONAL_POSTS"
+msgstr ""
+
+#: x.py:104
+msgid "NO_PHOTOS_TO_REMOVE"
+msgstr ""
+
+#: x.py:105
+msgid "NO_POSTS"
+msgstr ""
+
+#: x.py:106
+msgid "NO_PROFILE_PHOTOS"
+msgstr ""
+
+#: x.py:107
+msgid "NO_VOTES"
+msgstr ""
+
+#: x.py:108
+msgid "FOUND_MATCHES_COUNT"
+msgstr ""
+
+#: x.py:109
+msgid "OK"
+msgstr ""
+
+#: x.py:110
+msgid "PERSONAL_SCENARIO"
+msgstr ""
+
+#: x.py:111
+msgid "PERSONAL_POST_HELLO"
+msgstr ""
+
+#: x.py:112
+msgid "PHOTOS_ADDED_SUCCESS"
+msgstr ""
+
+#: x.py:113
+msgid "PHOTOS_REMOVED_SUCCESS"
+msgstr ""
+
+#: x.py:114
+msgid "PHOTO_ADDED_SUCCESS"
+msgstr ""
+
+#: x.py:115
+msgid "PHOTO_SPECIFIED"
+msgstr ""
+
+#: x.py:116
+msgid "POSSIBLE_INACTIVE_ACCOUNT"
+msgstr ""
+
+#: x.py:117
+msgid "CREATED_SUCCESSFULLY"
+msgstr ""
+
+#: x.py:118
+msgid "NOT_FOUND"
+msgstr ""
+
+#: x.py:119
+msgid "POST_TO_VOTE_NOT_FOUND"
+msgstr ""
+
+#: x.py:120
+msgid "PROFILE"
+msgstr ""
+
+#: x.py:121
+msgid "PUBLIC_POST_HELLO"
+msgstr ""
+
+#: x.py:122
+msgid "RATE_POSTS"
+msgstr ""
+
+#: x.py:123
+msgid "READY"
+msgstr ""
+
+#: x.py:124
+msgid "REG_GENDERS"
+msgstr ""
+
+#: x.py:125
+msgid "REG_GOALS"
+msgstr ""
+
+#: x.py:126
+msgid "REG_REQUIRED"
+msgstr ""
+
+#: x.py:127
+msgid "REG_REQUIRED_FOR_POSTS"
+msgstr ""
+
+#: x.py:128
+msgid "REG_REQUIRED_FOR_VOTING"
+msgstr ""
+
+#: x.py:129
+msgid "REG_STEP_0"
+msgstr ""
+
+#: x.py:130
+msgid "REG_STEP_1"
+msgstr ""
+
+#: x.py:131
+msgid "REG_STEP_2"
+msgstr ""
+
+#: x.py:132
+msgid "REG_STEP_3"
+msgstr ""
+
+#: x.py:133
+msgid "REG_STEP_4"
+msgstr ""
+
+#: x.py:134
+msgid "REG_STEP_5"
+msgstr ""
+
+#: x.py:135
+msgid "REG_STEP_6"
+msgstr ""
+
+#: x.py:136
+msgid "REG_STEP_7"
+msgstr ""
+
+#: x.py:137
+msgid "REMOVE_PHOTOS"
+msgstr ""
+
+#: x.py:138
+msgid "REQUEST_PROPOSAL"
+msgstr ""
+
+#: x.py:140
+msgid "SEARCH"
+msgstr ""
+
+#: x.py:141
+msgid "SEND"
+msgstr ""
+
+#: x.py:142
+msgid "SHARE_PROPOSAL"
+msgstr ""
+
+#: x.py:143
+msgid "SHOW_ALL"
+msgstr ""
+
+#: x.py:144
+msgid "SHOW_MORE"
+msgstr ""
+
+#: x.py:145
+msgid "SHOW_NEW"
+msgstr ""
+
+#: x.py:146
+msgid "SKIP"
+msgstr ""
+
+#: x.py:147
+msgid "START_SCENARIO"
+msgstr ""
+
+#: x.py:148
+msgid "SEARCH_STEP_0"
+msgstr ""
+
+#: x.py:149
+msgid "SEARCH_STEP_1"
+msgstr ""
+
+#: x.py:150
+msgid "SEARCH_STEP_2"
+msgstr ""
+
+#: x.py:151
+msgid "SEARCH_STEP_3"
+msgstr ""
+
+#: x.py:152
+msgid "SEARCH_STEP_4"
+msgstr ""
+
+#: x.py:153
+msgid "STATISTIC_HELLO"
+msgstr ""
+
+#: x.py:154
+msgid "SUCCESS_REG"
+msgstr ""
+
+#: x.py:155
+msgid "TARGET_GENDERS"
+msgstr ""
+
+#: x.py:156
+msgid "TARGET_GOALS"
+msgstr ""
+
+#: x.py:157
+msgid "TARGET_SHOW_CHOICE"
+msgstr ""
+
+#: x.py:158
+msgid "TARGET_SHOW_OR_END"
+msgstr ""
+
+#: x.py:159
+msgid "TEXT_TOO_LONG"
+msgstr ""
+
+#: x.py:160
+msgid "TOO_MANY_PHOTOS"
+msgstr ""
+
+#: x.py:161
+msgid "UNKNOWN"
+msgstr ""
+
+#: x.py:162
+msgid "UNSKIPPABLE_STEP"
+msgstr ""
+
+#: x.py:164
+msgid "USER_ACCEPTED_PERSONAL_POST_SHARE"
+msgstr ""
+
+#: x.py:165
+msgid "USER_ACCEPTED_REQUEST"
+msgstr ""
+
+#: x.py:169
+msgid "USER_DECLINED_REQUEST"
+msgstr ""
+
+#: x.py:170
+msgid "USER_DECLINED_INVITE"
+msgstr ""
+
+#: x.py:171
+msgid "USER_GOT_YOUR_REQUEST"
+msgstr ""
+
+#: x.py:172
+msgid "USER_GOT_YOUR_INVITE"
+msgstr ""
+
+#: x.py:173
+msgid "ERROR_SAVING_PHOTOS"
+msgstr ""
+
+#: x.py:175
+msgid "USE_ACCOUNT_NAME"
+msgstr ""
+
+#: x.py:176
+msgid "USE_ACCOUNT_PHOTOS"
+msgstr ""
+
+#: x.py:177
+msgid "WAIT"
+msgstr ""
+
+#: x.py:178
+msgid "WANNA_BOTH"
+msgstr ""
+
+#: x.py:179
+msgid "I_WANNA_CHAT"
+msgstr ""
+
+#: x.py:180
+msgid "I_WANNA_DATE"
+msgstr ""
+
+#: x.py:181
+msgid "WHO_TO_REQUEST_PERSONAL_POSTS"
+msgstr ""
+
+#: x.py:182
+msgid "WHO_TO_SHARE"
+msgstr ""
+
+#: x.py:183
+msgid "_YOU_CAN_ADD_MORE_PHOTOS"
+msgstr ""
+
+
+msgid "MAX_NAME_LEN"
+msgstr ""
+
+msgid "ASK_FOR_POST"
+msgstr ""
+
+#: x.py:139
+msgid "SAY_CHOSE_FOR_POST"
+msgstr ""
+
+#: x.py:102
+msgid "NO_COLLECTIONS"
+msgstr ""
+
+#: x.py:86
+msgid "LISTED_COLLECTIONS_NOT_EXISTS"
+msgstr ""
+
+#: x.py:55
+msgid "HERE_YOUR_COLLECTIONS"
+msgstr ""
+
+#: x.py:11
+msgid "ASK_TO_SHARE"
+msgstr ""
+
+#: x.py:53
+msgid "HERE_SHARED"
+msgstr ""
+
+#: x.py:25
+msgid "COLLECTIONS_TO_SHARE_NOT_CHOSE"
+msgstr ""
+

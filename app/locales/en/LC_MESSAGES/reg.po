@@ -1,0 +1,168 @@
+# Long comments for line: "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+# 1) Reason for the rule:
+# English, like many other languages, has a grammatical system for expressing quantity.
+# Singular and plural are grammatical numbers that potentially impact all parts of speech.
+# It is essential to correctly translate these nuances to maintain the naturalness of the language in software.
+#
+# 2) Workflow and specification:
+# We use the "Plural-Forms" attribute to provide gettext with the rules for pluralization in English.
+# This attribute helps gettext understand how to select the correct translation depending on the numerical context.
+# The "nplurals" parameter is used to specify the total number of grammatical numbers in the language, which is 2 for English.
+# The "plural" condition provides the logic to select between these forms based on the given quantity.
+#
+# 3) Implementation:
+# The condition "n != 1" in the "plural" attribute means if the quantity `n` is not equal to 1, use the plural form.
+# When `n` equals 1, it means we are dealing with a singular entity, so we use the singular form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "COMMAND_FOR_REG"
+msgstr "Registration command: \"{REG_CMD}\"."
+
+msgid "END_REG_HELP"
+msgstr ""
+"Write \"{FINISH}\" to complete registration, "
+"\"{BACK}\" if you want to make changes, or "
+"\"{CANCEL}\" to cancel registration"
+
+msgid "ERROR_SAVING_PHOTOS"
+msgstr "I cannot save photos."
+
+msgid "ERROR_SAVING_PROFILE"
+msgstr "I cannot save your profile. Canceling registration."
+
+msgid "HERE_PROFILE_PREVIEW"
+msgstr "This is how your profile will look like:"
+
+msgid "INCORRECT_AGE"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write your age, for example: \"25\" years."
+
+msgid "INCORRECT_GENDER"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{I_MALE}\" or \"{I_FEMALE}\""
+
+msgid "INCORRECT_GOAL"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{I_WANNA_CHAT}\", \"{I_WANNA_DATE}\" or \"{I_WANNA_CHAT_AND_DATE}\""
+
+msgid "INCORRECT_LOCATION"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write the country and city separated by a comma, for example: \"France, Paris\"."
+
+msgid "I_FEMALE"
+msgstr "female"
+
+msgid "I_MALE"
+msgstr "male"
+
+msgid "I_WANNA_CHAT"
+msgstr "I want to chat"
+
+msgid "I_WANNA_CHAT_AND_DATE"
+msgstr "Chat and date"
+
+msgid "I_WANNA_DATE"
+msgstr "I want to date"
+
+msgid "SEND_LOCATION"
+msgstr "Use my location"
+
+msgid "NO_PHOTOS_TO_REMOVE"
+msgstr "You do not have any added photos."
+
+msgid "NO_PROFILE_PHOTOS"
+msgstr "Your profile has no photos."
+
+msgid "PHOTOS_ADDED_SUCCESS"
+msgstr "Added. You can add more photos."
+
+msgid "PHOTOS_REMOVED_SUCCESS"
+msgstr "Removed. You can add more photos."
+
+msgid "PHOTO_ADDED_SUCCESS"
+msgstr "Added. You can add more photos."
+
+msgid "REG_STEP_0"
+msgstr ""
+"Great decision!\n"
+"After registration, you will be able to not only view profiles but also "
+"become searchable yourself.\n"
+"During registration, I will ask for your name, goal, gender, age, photo, and "
+"comment."
+
+msgid "REG_STEP_1"
+msgstr ""
+"Step 1 of 7.\n"
+"What is your name?"
+
+msgid "REG_STEP_2"
+msgstr ""
+"Step 2 of 7.\n"
+"Do you want to chat or date?"
+
+msgid "REG_STEP_3"
+msgstr ""
+"Step 3 of 7.\n"
+"What is your gender?"
+
+msgid "REG_STEP_4"
+msgstr ""
+"Step 4 of 7.\n"
+"What is your age?"
+
+msgid "REG_STEP_5"
+msgstr ""
+"Step 5 of 7.\n"
+"Write your country and city, separated by a comma (\",\")."
+
+msgid "REG_STEP_6"
+msgstr ""
+"Step 6 of 7.\n"
+"Attach one or multiple photos in an attachment,\n"
+"which will be displayed along with your profile.\n"
+"The first photo added will become your avatar.\n"
+"When you are done, write \"ready\"."
+
+msgid "REG_STEP_7"
+msgstr ""
+"Step 7 of 7.\n"
+"Tell something about yourself.\n"
+"Maximum characters allowed: 500."
+
+msgid "REMOVE_PHOTOS"
+msgstr "Remove selected photos"
+
+msgid "SUCCESS_REG"
+msgstr "Congratulations, you have successfully registered!"
+
+msgid "TOO_MANY_PHOTOS"
+msgstr ""
+"Too many photos.\n"
+"Used photos: {{USED_PHOTOS}}.\n"
+"Maximum photos: {MAX_PHOTOS}."
+
+msgid "USE_ACCOUNT_NAME"
+msgstr "Use account name"
+
+msgid "USE_ACCOUNT_PHOTOS"
+msgstr "Use profile photos"
+
+msgid "_YOU_CAN_ADD_MORE_PHOTOS"
+msgstr "You can add more photos."

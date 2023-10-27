@@ -1,0 +1,178 @@
+# Long comments for line: "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+# 1) Reason for the rule:
+# English, like many other languages, has a grammatical system for expressing quantity.
+# Singular and plural are grammatical numbers that potentially impact all parts of speech.
+# It is essential to correctly translate these nuances to maintain the naturalness of the language in software.
+#
+# 2) Workflow and specification:
+# We use the "Plural-Forms" attribute to provide gettext with the rules for pluralization in English.
+# This attribute helps gettext understand how to select the correct translation depending on the numerical context.
+# The "nplurals" parameter is used to specify the total number of grammatical numbers in the language, which is 2 for English.
+# The "plural" condition provides the logic to select between these forms based on the given quantity.
+#
+# 3) Implementation:
+# The condition "n != 1" in the "plural" attribute means if the quantity `n` is not equal to 1, use the plural form.
+# When `n` equals 1, it means we are dealing with a singular entity, so we use the singular form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "I_WANNA_CHAT"
+msgstr "I want to chat"
+
+msgid "I_WANNA_CHAT_AND_DATE"
+msgstr "Chat and date"
+
+msgid "I_WANNA_DATE"
+msgstr "I want to date"
+
+msgid "MALE"
+msgstr "Male"
+
+msgid "FEMALE"
+msgstr "Female"
+
+msgid "AGE_SPECIFIED"
+msgstr "Age specified"
+
+msgid "ANY_AGE"
+msgstr "Any age"
+
+msgid "ANY_GENDER"
+msgstr "Any gender"
+
+msgid "CITY_SPECIFIED"
+msgstr "City specified"
+
+msgid "COUNTRY_SPECIFIED"
+msgstr "Country specified"
+
+msgid "ERROR_FILTERS"
+msgstr "Failed to apply filter. Filters will not be applied."
+
+msgid "HERE_MATCH"
+msgstr ""
+"You match with:\n"
+"Percentage of common interests: {SHARED_INTERESTS_PERCENTAGE}%\n"
+"Common interests: {SHARED_INTERESTS_COUNT}"
+
+msgid "INCORRECT_SHOW_MORE_OPTION"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{SHOW_MORE}\" or \"{FINISH}\""
+
+msgid "INCORRECT_SHOW_OPTION"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{SHOW_ALL}\" or \"{SHOW_NEW}\""
+
+msgid "INCORRECT_TARGET_AGE"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write a number in format xx, range in format xx - xx or \"{ANY_AGE}\""
+
+msgid "INCORRECT_TARGET_GENDER"
+msgstr "{MISUNDERSTAND} Write \"{MALE}\", \"{FEMALE}\" or \"{ANY_GENDER}\""
+
+msgid "INCORRECT_TARGET_GOAL"
+msgstr ""
+"{MISUNDERSTAND}\n"
+"Write \"{I_WANNA_CHAT}\", \"{I_WANNA_DATE}\" or \"{I_WANNA_CHAT_AND_DATE}\""
+
+msgid "IT_WANNA_CHAT"
+msgstr "wants to chat"
+
+msgid "IT_WANNA_CHAT_AND_DATE"
+msgstr "chat and date"
+
+msgid "IT_WANNA_DATE"
+msgstr "wants to date"
+
+msgid "NEW_FILTERS_SUGGESTIONS"
+msgstr "For suggestions on adding new filters please contact {ADMIN}"
+
+msgid "NO_COVOTES"
+msgstr ""
+"You have rated too few posts, so you don't have any matches based on common interests.\n"
+"How to rate more posts, 3 options:\n"
+"1. Use the \"{GET_PUBLIC_POST_CMD}\" command to rate more new posts in this chat.\n"
+"2. Use the \"{GLOBAL_SCENARIO_CMD}\" command to rate default posts in this chat.\n"
+"3. Rate more posts in our posts channel: {POSTS_CHANNEL_LINK}"
+
+msgid "NO_MATCHES_WITH_FILTERS"
+msgstr ""
+"Unfortunately, we couldn't find anyone based on the filters you provided. Ending the search."
+
+msgid "NO_MORE_MATCHES"
+msgstr ""
+"Great job, you have viewed all matches!\n"
+"Ending dialogue."
+
+msgid "NO_VOTES"
+msgstr ""
+"You haven't rated any posts yet, so we can't match you with anyone based on your interests.\n"
+"How to rate more posts, 3 options:\n"
+"Use the \"{GET_PUBLIC_POST_CMD}\" command to rate more new posts in this chat.\n"
+"Use the \"{GLOBAL_SCENARIO_CMD}\" command to rate default posts in this chat.\n"
+"Rate more posts in our posts channel: {POSTS_CHANNEL_LINK}"
+
+msgid "FOUND_MATCHES_COUNT"
+msgstr "Found {FOUND_MATCHES_COUNT} matches!"
+
+msgid "PHOTO_SPECIFIED"
+msgstr "With photo"
+
+msgid "SEARCH_STEP_0"
+msgstr ""
+"Hello! My name is Ruby. I am a bot that will help you find a partner for "
+"dating or chatting."
+
+msgid "SEARCH_STEP_1"
+msgstr "Do you want to chat or date?"
+
+msgid "SEARCH_STEP_2"
+msgstr "Select the desired gender of your partner."
+
+msgid "SEARCH_STEP_3"
+msgstr ""
+"Select the desired age of your partner.\n"
+"You can select a range by typing two numbers separated by a dash, for "
+"example 24 - 38."
+
+msgid "SHARED_DISLIKES_PERCENTAGE"
+msgstr "Shared dislikes percentage"
+
+msgid "SHARED_LIKES_PERCENTAGE"
+msgstr "Shared likes percentage"
+
+msgid "SHARED_UNMARKED_POSTS_PERCENTAGE"
+msgstr "Shared unmarked posts percentage"
+
+msgid "SHOW_ALL"
+msgstr "explore all"
+
+msgid "SHOW_MORE"
+msgstr "show more"
+
+msgid "SHOW_NEW"
+msgstr "explore new"
+
+msgid "TOTAL_DISLIKES_SET"
+msgstr "Total dislikes set"
+
+msgid "TOTAL_LIKES_SET"
+msgstr "Total likes set"
+
+msgid "TOTAL_UNMARKED_POSTS"
+msgstr "Total unmarked posts"

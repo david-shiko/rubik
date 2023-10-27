@@ -1,0 +1,90 @@
+# Long comments for line: "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+# 1) Reason for the rule:
+# English, like many other languages, has a grammatical system for expressing quantity.
+# Singular and plural are grammatical numbers that potentially impact all parts of speech.
+# It is essential to correctly translate these nuances to maintain the naturalness of the language in software.
+#
+# 2) Workflow and specification:
+# We use the "Plural-Forms" attribute to provide gettext with the rules for pluralization in English.
+# This attribute helps gettext understand how to select the correct translation depending on the numerical context.
+# The "nplurals" parameter is used to specify the total number of grammatical numbers in the language, which is 2 for English.
+# The "plural" condition provides the logic to select between these forms based on the given quantity.
+#
+# 3) Implementation:
+# The condition "n != 1" in the "plural" attribute means if the quantity `n` is not equal to 1, use the plural form.
+# When `n` equals 1, it means we are dealing with a singular entity, so we use the singular form.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2023-05-21 16:25+0000\n"
+"PO-Revision-Date: 2023-05-21 16:25+0000\n"
+"Last-Translator: David Shiko dsb321mp@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "ASK_FOR_NAMES"
+msgstr ""
+"Optional:\n"
+"You can select collections to put the post in.\n"
+"Enter the names of collections using comma (\",\"). \n"
+"If the collection does not exist - it will be created.\n"
+"If the collection is not specified - the default collection will be used."
+
+msgid "ASK_TO_SHARE"
+msgstr "Choose the collections you want to share."
+
+msgid "HERE_POSTS"
+msgstr "Here are the posts from the collection:"
+
+msgid "HERE_SHARED"
+msgstr ""
+"Here are the collections that have been shared with you:\n"
+"(Click on the collection to see its posts)."
+
+msgid "HERE_YOUR"
+msgstr "Here are your collections (Soon there will be convenient buttons):"
+
+msgid "MAX_NAME_LEN"
+msgstr "Max symbols in collection name: {MAX_NAME_LEN}."
+
+msgid "COLLECTIONS_TO_SHARE_NOT_CHOSE"
+msgstr ""
+"You have not chosen any collection to share.\n"
+"Please choose collections for sending."
+
+msgid "NO_COLLECTIONS"
+msgstr ""
+"You do not have any collections. "
+"You can create them during creation of personal posts, command: "
+"\"{CREATE_PERSONAL_POST_CMD}\"."
+
+msgid "NO_POSTS"
+msgstr "Oops, this collection has no posts, sorry."
+
+msgid "SAY_CHOSE_FOR_POST"
+msgstr "The post will be placed in the following collections:"
+
+msgid "NOTIFY_SHARE_PROPOSAL"
+msgstr "User {USER_TG_NAME} wants to share their collections with you, accept?"
+
+msgid "WHO_TO_SHARE"
+msgstr ""
+"Which user would you like to share collections with?\n"
+"Send their contact or enter their user id."
+
+msgid "SHARED_COLLECTIONS_NOT_FOUND"
+msgstr "Shared collections not found. It's possible that the sender deleted them."
+
+# No need message for user declined share proposal cuz common for all currently and defined in the base.
+# msgid "USER_DECLINED_SHARE_PROPOSAL"
+
+msgid "USER_ACCEPTED_SHARE_PROPOSAL"
+msgstr ""
+"Great, user {ACCEPTER_TG_NAME} accepted your proposal!\n"
+"Now you please wait for him while he will rate these collections too."
