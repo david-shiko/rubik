@@ -16,7 +16,7 @@ country have met a similar fate.
 It's amusing: the banking software and I are roughly the same age. Three-fourths of my work is wasted 
 simply because upper management doesn't deem it necessary to update the old software. This is a 
 disrespect for human labor. I could write software twice as good in 1-2 years, but instead, I serve it.  
-![My cool image](https://qph.cf2.quoracdn.net/main-qimg-0514754387a966ecc78e7a88ad0fdf61-lq)  
+![Meme you were supposed to destroy](https://qph.cf2.quoracdn.net/main-qimg-0514754387a966ecc78e7a88ad0fdf61-lq)  
 I feel like the first casualty in the uprising of machines.
 
 ---
