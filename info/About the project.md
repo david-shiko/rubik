@@ -54,8 +54,8 @@ find interesting for dating, socializing, doing business, and leaving a legacy i
 
 When people ask me, "What if it doesn't take off?", I always think, damn, it's based on sorting   
 people by common interests—I want to use this just hearing about it! Even if it doesn't work, it's   
-worth a try for everyone. I endlessly believe in this project and approach. My vision for the   
-service goes far beyond current developments and designs, at least by threefold. 
+worth a try for everyone. I endlessly believe in this project and approach.  
+My vision for the service goes far beyond current developments and designs, at least by threefold. 
 _My goal is to sort everyone on the planet, find each person a match, and a society where they can realize their potential._
 On this foundation, the best teams will form, where everyone's ideas and visions complement each other.   
 Companies and parliaments will be built, unified by a common goal.  
